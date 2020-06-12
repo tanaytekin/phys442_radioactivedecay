@@ -1,0 +1,114 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{9}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {John O.~Rasmussen}()}]{int1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~P.~S.}\
+  \bibnamefont {John O.~Rasmussen}},\ }\href@noop {} {\bibinfo {title}
+  {Radioactivity}},\ \bibinfo {howpublished}
+  {\url{https://www.britannica.com/science/radioactivity}}\BibitemShut
+  {NoStop}%
+\bibitem [{int()}]{int2}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {howpublished}
+  {\url{https://www.iop.org/resources/topic/archive/radioactivity/}},\ \bibinfo
+  {note} {[Accessed: 11-June-2020]}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Patel}(2000)}]{int3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Patel}},\ }\href@noop {} {\emph {\bibinfo {title} {Nuclear physics: an
+  introduction}}}\ (\bibinfo {year} {2000})\ p.\ \bibinfo {pages}
+  {62–72}\BibitemShut {NoStop}%
+\bibitem [{his()}]{hist1}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {howpublished} {\url{https://physics.info/decay}},\
+  \bibinfo {note} {[Accessed: 11-June-2020]}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Howorth}(1958)}]{hist2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Howorth}},\ }\href@noop {} {\emph {\bibinfo {title} {Pioneer Research on the
+  Atom}}}\ (\bibinfo  {publisher} {New World},\ \bibinfo {year} {1958})\ Chap.\
+  \bibinfo {chapter} {The Life Story of Frederick Soddy}, pp.\ \bibinfo {pages}
+  {83--84}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Segrè}(1980)}]{hist3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Segrè}},\ }\href@noop {} {\emph {\bibinfo {title} {From X-Rays to
+  Quarks}}}\ (\bibinfo {year} {1980})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gulmez}(2000)}]{Gulmez}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Gulmez}},\ }\href@noop {} {\emph {\bibinfo {title} {Advanced Physics
+  Experiments}}}\ (\bibinfo  {publisher} {Bogazici University Press},\ \bibinfo
+  {year} {2000})\ pp.\ \bibinfo {pages} {36--42}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jain}\ \emph {et~al.}(2015)\citenamefont {Jain},
+  \citenamefont {Bansal}, \citenamefont {Kumar},\ and\ \citenamefont
+  {Singh}}]{Jain2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Jain}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Bansal}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kumar}},\ and\ \bibinfo
+  {author} {\bibfnamefont {K.~D.}\ \bibnamefont {Singh}},\ }\bibfield  {title}
+  {\bibinfo {title} {A comparative study of visual and auditory reaction times
+  on the basis of gender and physical activity levels of medical first year
+  students},\ }\href {https://doi.org/10.4103/2229-516X.157168} {\bibfield
+  {journal} {\bibinfo  {journal} {International journal of applied {\&} basic
+  medical research}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {124}
+  (\bibinfo {year} {2015})},\ \bibinfo {note} {26097821[pmid]}\BibitemShut
+  {NoStop}%
+\bibitem [{con()}]{conc}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {howpublished}
+  {\url{https://www.gammaspectacular.com/blue/th232-spectrum}},\ \bibinfo
+  {note} {[Accessed: 11-June-2020]}\BibitemShut {NoStop}%
+\end{thebibliography}%

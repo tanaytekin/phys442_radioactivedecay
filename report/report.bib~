@@ -1,0 +1,72 @@
+@PREAMBLE{
+ "\providecommand{\noopsort}[1]{}" 
+ # "\providecommand{\singleletter}[1]{#1}%" 
+}
+
+@
+@misc{int1,
+author={John O. Rasmussen , Ellis P. Steinberg},
+title={Radioactivity},
+publisher={Encyclopædia Britannica},
+url={\url{https://www.britannica.com/science/radioactivity}}
+}
+
+@misc{int2,
+  howpublished = {\url{https://www.iop.org/resources/topic/archive/radioactivity/}},
+  note = {[Accessed: 11-June-2020]}
+  }
+  
+@book{int3,
+   author       = {Patel, S.B.},
+   year         = {2000},
+   title        = {Nuclear physics: an introduction},
+   pages        = "62–72"
+   }
+
+@misc{hist1,
+  howpublished = {\url{https://physics.info/decay}},
+  note = {[Accessed: 11-June-2020]}
+  }
+  
+@book{hist2,
+  author       = {Muriel Howorth},
+   year         = {1958},
+   title        = {Pioneer Research on the Atom},
+   chapter      =  {The Life Story of Frederick Soddy},
+   publisher    = {New World},
+   pages        = "83-84"
+   }
+   
+@book{hist3,
+author = {Emilio Segrè},
+title = {From X-Rays to Quarks},
+year = {1980},
+}
+
+
+
+
+@Article{Jain2015,
+author={Jain, Aditya
+and Bansal, Ramta
+and Kumar, Avnish
+and Singh, K. D.},
+title={A comparative study of visual and auditory reaction times on the basis of gender and physical activity levels of medical first year students},
+journal={International journal of applied {\&} basic medical research},
+year={2015},
+publisher={Medknow Publications {\&} Media Pvt Ltd},
+volume={5},
+number={2},
+pages={124-127},
+keywords={Auditory reaction time; exercise; females; males; medical students; visual reaction time},
+note={26097821[pmid]},
+note={PMC4456887[pmcid]},
+note={IJABMR-5-124[PII]},
+issn={2229-516X},
+doi={10.4103/2229-516X.157168},
+url={https://pubmed.ncbi.nlm.nih.gov/26097821},
+url={https://doi.org/10.4103/2229-516X.157168},
+}
+
+  
+
